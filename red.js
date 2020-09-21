@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const dotenv = require('dotenv');
 const { filterRouter, cardsRouter } = require('./routes/index');
-const { Logger } = require('./helpers/index');
+const { Logger } = require('./helpers/index');s
 const cors = require('cors');
 
 const app = express();
